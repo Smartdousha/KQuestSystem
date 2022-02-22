@@ -1,0 +1,39 @@
+no-permission: "§c您没有此命令使用权限"
+reload: "§a重载成功"
+
+quest:
+  list:
+    top: '&8<-----------你发布的任务------------>'
+    detail: '&7--{name}'
+  finished: "&a任务已完成"
+  money: "&a任务奖励金币: {money}"
+delete:
+  success: "&a删除成功"
+  fail:
+    not-found: "&c没有在您的发布任务列表找到该任务"
+    empty: "&c任务名称不能为空"
+    no-quest: "&c没有在您的发布任务列表找到任何任务"
+submit:
+  success:
+    money: "&a您已成功提交任务，花费{money}金币"
+    materials: "&a您已成功更新任务材料，花费{materials}个材料"
+    award: "&a您已成功更新任务奖励,{amount}个"
+  fail:
+    repeat: "&c该任务已存在！"
+    quest: "&c你已经提交过这个任务了！"
+    cancle: "&c任务已取消发布！"
+    quest-notfound: "&c你没有发布过这个任务！"
+    no-quest: "&c你没有发布过任何任务！"
+    money: "&c你的金币不足！"
+    money-error: "&c奖励金币不能小于0！"
+    money-exception: "&c奖励金币格式错误！"
+    amount: "§c奖励数量不足！"
+    material-amount-error: "&c材料数量不能小于0！"
+    material-amount-exception: "&c材料数量格式错误！"
+    material-not-found: "&c材料数量不足！"
+    material-empty: "&c材料不能为空气！"
+    material-not-enough: "&c材料不足！"
+    award-amount-error: "&c奖励数量不能小于0！"
+    award-amount-exception: "&c奖励数量格式错误！"
+    award-amount-notenough: "&c奖励数量不足！"
+    award-empty: "&c未上传任何奖励，已为您取消发布！"

@@ -1,0 +1,15 @@
+database:
+  host: "115.29.210.6"
+  port: 3306
+  user: "kquest"
+  password: "111111"
+  database: "kquest"
+menu:
+  title: "任务系统"
+  material: "&f所需材料：{material} x {amount}"
+  award: "&e奖励物品：{material} x {amount}"
+  awardMoney: "&e奖励金钱：{money}"
+  publisher: "&6发布者：{publisher}"
+  receive: "收件箱"
+  private: "§a个人任务"
+  success: "§a领取成功"
